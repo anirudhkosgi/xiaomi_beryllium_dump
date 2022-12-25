@@ -1,0 +1,28 @@
+####################################
+# from device/xiaomi/beryllium/product.prop
+####################################
+# IMS
+ro.telephony.block_binder_thread_on_incoming_calls=false
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+# Shutdown
+ro.build.shutdown_timeout=2
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
+ro.com.google.ime.kb_pad_port_l=4
+ro.com.google.ime.kb_pad_port_r=4
+ro.com.google.ime.kb_pad_land_l=64
+ro.com.google.ime.kb_pad_land_r=64
+persist.sys.disable_rescue=true
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+# end of file
