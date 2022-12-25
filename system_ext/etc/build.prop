@@ -1,0 +1,33 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=Xiaomi
+ro.product.system_ext.device=beryllium
+ro.product.system_ext.manufacturer=Xiaomi
+ro.product.system_ext.model=POCO F1
+ro.product.system_ext.name=beryllium
+ro.system_ext.build.date=Thu Dec 22 10:34:59 UTC 2022
+ro.system_ext.build.date.utc=1671705299
+ro.system_ext.build.fingerprint=Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V12.0.3.0.QEJMIXM:user/release-keys
+ro.system_ext.build.id=TQ1A.221205.011
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=957
+ro.system_ext.build.version.release=13
+ro.system_ext.build.version.release_or_codename=13
+ro.system_ext.build.version.sdk=33
+####################################
+# from device/xiaomi/beryllium/system_ext.prop
+####################################
+# DPM
+persist.vendor.dpm.feature=11
+persist.vendor.dpm.loglevel=0
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+debug.sf.enable_hwc_vds=1
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+ro.launcher.blur.appLaunch=0
+# end of file
